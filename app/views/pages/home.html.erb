@@ -1,2 +1,15 @@
-<h1>GenerUs</h1>
-<p>Learn more <%= link_to "here", 'about' %></p>
+<div class="mainpage">
+
+	<div class="container center">
+		<h1 class="brand-color">GenerUs</h1>
+		<% if user_signed_in? %>
+	          # do something
+	     <% else %>
+		<%= link_to "log in", new_user_session_path, class:"btn btn-default center" %>
+		<%= link_to "sign up", new_user_registration_path, class:"btn btn-default center" %>
+		<% end %>
+
+
+	<p><br>to learn more about us, click <%= link_to "this", about_path %>
+	</div>
+</div>
