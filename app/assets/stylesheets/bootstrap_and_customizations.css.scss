@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:100,400);
+
+$font-family-sans-serif: 'quicksand', 'sans-serif'; 
+$font-size-base: 18px;
+$jumbotron-bg: white;
+$btn-default-bg: #2ecc71; 
+$btn-default-color: white;
+$text-color: #34495e;
+
+//$body-bg:#f39c12;
+
+$navbar-default-link-color: #f39c12;
+$navbar-default-link-hover-color: #2ecc71;
+$navbar-default-brand-color: #f39c12;
+$navbar-default-brand-hover-color: #2ecc71;
+$navbar-height: 93px;
+$link-color: #f39c12;
+$link-hover-color: #2ecc71;
+$navbar-default-bg: white;
+
+
+@import 'bootstrap';
+
+
+.center {
+	text-align: center;
+	vertical-align: center;
+}
+
+.body {
+	padding-top: 92px;
+}
+
+.brand-color {
+	color: #f39c12;
+}
+
+.muted {
+	color: #27ae60;
+}
+
+.mainpage {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: image-url('reflection.jpg');
+  background-size: cover; 
+  font-weight: 400;
+  font-size: 20px;
+  width: 100%;
+  color:  #34495e;
+}
+
+
+.small { 
+	max-width: 400px;
+}
